@@ -20,9 +20,9 @@ const NotFound: NextPage = () => {
           <p>
             <strong>404 - Not Found (aggressive)</strong>
             <br />
-            (⌐▀͡ ̯ʖ▀) what're you looking at, buddy?
+            (⌐▀͡ ̯ʖ▀) what&apos;re you looking at, buddy?
             <br />
-            (⌐▀͡ ̯ʖ▀)⊃ <Link href="/">click here</Link> to go back or you'll
+            (⌐▀͡ ̯ʖ▀)⊃ <Link href="/">click here</Link> to go back or you&apos;ll
             regret it, kid.
           </p>
         </div>
