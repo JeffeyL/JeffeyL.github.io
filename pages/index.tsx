@@ -25,9 +25,10 @@ const Home: NextPage = () => {
           </p>
           <br />
           <p>
-            In the past, I&apos;ve worked at Fortinet in cloud DevOps. Starting
-            summer 2023, I&apos;ll be working at Red Hat in the Cloud
-            Engineering team. You can see my full resume (and other information){" "}
+            In the past, I&apos;ve worked at Fortinet in cloud DevOps and
+            computer networks. Starting summer 2023, I&apos;ll be working at Red
+            Hat in the Cloud Engineering team. You can see my full resume (and
+            other information){" "}
             <a
               target="_blank"
               href="https://drive.google.com/file/d/1Qi774PfZSVqvNRkdWSGzRwDCug3gDjsw/view?usp=sharing"
