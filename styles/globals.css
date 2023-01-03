@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+::-moz-selection {
+  background: rgba(0, 0, 0, 0.14);
+}
+
+::selection {
+  background: rgba(0, 0, 0, 0.14);
+}
+
+body.dm::-moz-selection {
+  background: rgba(255, 255, 255, 0.15);
+}
+body.dm::selection {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.14);
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  max-width: 1000px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+p {
+  font-weight: 500;
+  line-height: 150%;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.28);
+  cursor: pointer;
+}
+.icon:hover {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+a {
+  color: #972ec0;
+}
+a:hover:not(.icon),
+h1.linkable {
+  color: #3e0453;
+}
+.disabled,
+.disabled:hover {
+  color: #2e61c07c;
+}
+
+.clickable {
+  color: #972ec0;
+  cursor: pointer;
+  display: table;
+}
+.clickable:hover {
+  color: #8a1bb3;
+}
