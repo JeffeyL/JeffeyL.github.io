@@ -72,6 +72,8 @@ const Coursework: NextPage = () => {
             </ul>
           </p>
           <br />
+          <p>Links to past courses not provided (courses change every year)</p>
+          <br />
           <p>
             Fall 2022 (Y3)
             <ul>
