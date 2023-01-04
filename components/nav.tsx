@@ -15,27 +15,17 @@ const Nav = () => {
         paddingBottom: "2.5rem",
       }}
     >
-      {router.asPath === "/" ? (
+      <Link href="/" passHref>
         <h1
+          className="linkable"
           style={{
+            cursor: "pointer",
             color: "black",
           }}
         >
           Jeffrey Luo
         </h1>
-      ) : (
-        <Link href="/" passHref>
-          <h1
-            className="linkable"
-            style={{
-              cursor: "pointer",
-              color: "black",
-            }}
-          >
-            Jeffrey Luo
-          </h1>
-        </Link>
-      )}
+      </Link>
       <div
         style={{
           display: "flex",
